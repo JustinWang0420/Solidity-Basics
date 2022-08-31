@@ -12,6 +12,28 @@
 			},
 			{
 				"inputs": [],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "MINIMUM_USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "Withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -64,20 +86,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "minimumUsd",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -87,6 +96,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -125,11 +138,11 @@
 			]
 		},
 		"contracts/FundMe.sol": {
-			"keccak256": "0xff5442d2edec1c1ade5e87bf5265079e3cc6ad559d3fe0f68009e20305930b46",
+			"keccak256": "0x49943607f9f7efa0dffb358fb3e0d6eb8b711871dd28f3d7ccf721a700759ab8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f407762554af512a4c843bf9e6beee785a08b3c273be302cc3d5ccd2116791b3",
-				"dweb:/ipfs/QmYspiBaHJdZCYabzttND5gD9K8HxcXaYRWjQVETeYrBn9"
+				"bzz-raw://baba9047f39982b1b96bac6612c9ea64990536fb64cf8bde07eb34f2255d1b8c",
+				"dweb:/ipfs/QmPH2CTHSeVn6BV9JiQwDwfqFkK5Srq2qZn1ycNTHknokN"
 			]
 		},
 		"contracts/PriceConverter.sol": {
